@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'https://nhcqmhocgttcdtgqggnx.supabase.co/rest/v1',
+  baseURL: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/`,
   headers: {
-    apikey: 'sb_publishable_1HrfwCMaIT4MAA0FWAptOg_bB2HOhsz',
-    authorization: 'Bearer sb_publishable_1HrfwCMaIT4MAA0FWAptOg_bB2HOhsz',
+    apikey: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
+    authorization: `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY}`,
   },
 });
