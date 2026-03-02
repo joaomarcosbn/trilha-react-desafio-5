@@ -39,13 +39,13 @@ _(Lembre-se de desativar o RLS - Row Level Security da tabela para permitir a le
 git clone [https://github.com/joaomarcosbn/trilha-react-desafio-5.git](https://github.com/joaomarcosbn/trilha-react-desafio-5.git)
 cd trilha-react-desafio-5
 
-**2. Instale as dependências::**
+## ⚙️ 2. Instale as dependências:
 
 Você pode usar o Yarn (recomendado para este projeto) ou o NPM.
 
 yarn install
 
-**3. Configure as Variáveis de Ambiente:**
+## 3. Configure as Variáveis de Ambiente:
 Renomeie o arquivo .env.example para .env.local e preencha com as suas credenciais do Supabase e do seu OAuth App do GitHub:
 
 Snippet de código
